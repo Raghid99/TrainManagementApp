@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgreen"
+
+    tools:context=".Splash">
+
+    <ImageView
+        android:id="@+id/IVSplashTrainShowing"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal2"
+        app:layout_constraintEnd_toStartOf="@+id/vertical3"
+        app:layout_constraintStart_toStartOf="@+id/vertical2"
+        app:layout_constraintTop_toTopOf="@+id/horizontal1"
+        app:srcCompat="@drawable/train" />
+
+    <TextView
+        android:id="@+id/TVSplashWelcomeText"
+
+        android:layout_width="245dp"
+        android:layout_height="203dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Welcome to RMS"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal5"
+        app:layout_constraintEnd_toStartOf="@+id/vertical4"
+        app:layout_constraintStart_toStartOf="@+id/vertical1"
+        app:layout_constraintTop_toTopOf="@+id/horizontal3" />
+
+    <Button
+        android:id="@+id/BTNSplashGetStarted"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btn_rounded"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Get Started"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal6"
+        app:layout_constraintEnd_toStartOf="@+id/vertical3"
+        app:layout_constraintStart_toStartOf="@+id/vertical2"
+        app:layout_constraintTop_toTopOf="@+id/horizontal5" />
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.1"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.25"
+        />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.75"
+        />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.9"
+        />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintGuide_percent="0.1"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintGuide_percent="0.4"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintGuide_percent="0.5"
+        />
+
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

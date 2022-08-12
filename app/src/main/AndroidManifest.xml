@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login18april">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/train"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FareAddingByStationMaster"></activity>
+        <activity android:name=".ShowingPayToEmployee" />
+        <activity android:name=".CLientUserBookingStatusChecking" />
+        <activity android:name=".ShowTiming" />
+        <activity android:name=".TestBug" />
+        <activity android:name=".NoBookings" />
+        <activity android:name=".SelectCoachBiiking" />
+        <activity android:name=".ShowBookingsToStationMaster" />
+        <activity android:name=".CheckBookings" />
+        <activity android:name=".EmployeeAcountInfo" />
+        <activity android:name=".EmploeeHomeScreenFinal" />
+        <activity android:name=".StationMasterHomeScreenFinal" />
+        <activity android:name=".ClientUserHomeScreenFinal" />
+        <activity android:name=".AddBookingByClient" />
+        <activity android:name=".SelectTrainSeat" />
+        <activity android:name=".SelectTrainCoach" />
+        <activity android:name=".AddNewEmployeeByStationMaster" />
+        <activity android:name=".StationMasterHomeScreenTemp" />
+        <activity android:name=".EmployeeHomeScreenTemp" />
+        <activity android:name=".ShowAllEmployeesToStationMaster" />
+        <activity android:name=".EmploywwHomeScreen" />
+        <activity android:name=".StationMasterToEmployeeChat" />
+        <activity android:name=".EmployeeToStationMasterChat" />
+        <activity android:name=".EmloyeeDetailsForStationMaster" />
+        <activity android:name=".StationMasterHomeScreen" />
+        <activity android:name=".StationManagementEmployeeScreen" />
+        <activity android:name=".AddClientBooking" />
+        <activity android:name=".ClientUserDetailsForAdmin" />
+        <activity android:name=".StationTesting" />
+        <activity
+            android:name=".Testing12345"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_testing12345"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".UserHomeScreenTemp" />
+        <activity
+            android:name=".UserHomeScreen"
+            android:label="@string/title_activity_user_home_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Testing" />
+        <activity android:name=".ShwongBack" />
+        <activity android:name=".TrainAdding" />
+        <activity android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserEndChat" />
+        <activity android:name=".ChatScreen" />
+        <activity android:name=".AdminToClientChat" />
+        <activity android:name=".AdminHomeScreen" />
+        <activity android:name=".AdminLogIN" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".SignUPActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

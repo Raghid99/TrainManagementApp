@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backlogin"
+
+    tools:context=".SignInActivity">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.12" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.80" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.25"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verticalcenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.5" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.82" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.75" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.87" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintGuide_percent="0.21" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintGuide_percent="0.4" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+
+        android:layout_marginBottom="8dp"
+
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:text="Log In"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal2"
+        app:layout_constraintEnd_toStartOf="@+id/vertical4"
+        app:layout_constraintStart_toStartOf="@+id/vertical1"
+        app:layout_constraintTop_toTopOf="@+id/horizontal1" />
+
+    <EditText
+        android:id="@+id/ETSignInUsername"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="Enter Username here"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#D3D3D3"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal3"
+        app:layout_constraintEnd_toStartOf="@+id/vertical3"
+        app:layout_constraintStart_toStartOf="@+id/vertical2"
+        app:layout_constraintTop_toTopOf="@+id/horizontal2" />
+
+    <EditText
+        android:id="@+id/ETSignInPassword"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="Enter Password here"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#D3D3D3"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal4"
+        app:layout_constraintEnd_toStartOf="@+id/vertical3"
+        app:layout_constraintStart_toStartOf="@+id/vertical2"
+        app:layout_constraintTop_toTopOf="@+id/horizontal3" />
+
+    <ImageView
+        android:id="@+id/loginprofile"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="35dp"
+        android:maxHeight="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal3"
+        app:layout_constraintEnd_toStartOf="@+id/ETSignInUsername"
+        app:layout_constraintStart_toStartOf="@+id/vertical1"
+        app:layout_constraintTop_toTopOf="@+id/horizontal2"
+        app:srcCompat="@drawable/profile1" />
+
+    <ImageView
+        android:id="@+id/loginpasswordimage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="35dp"
+        android:maxHeight="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal4"
+        app:layout_constraintEnd_toStartOf="@+id/ETSignInPassword"
+        app:layout_constraintStart_toStartOf="@+id/vertical1"
+        app:layout_constraintTop_toTopOf="@+id/horizontal3"
+        app:srcCompat="@drawable/password1" />
+
+    <Button
+        android:id="@+id/BTNSignInSignIN"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp"
+
+        android:background="@drawable/login_round_btn"
+
+        android:text="Log In"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal70"
+        app:layout_constraintEnd_toStartOf="@+id/vertical75"
+        app:layout_constraintStart_toStartOf="@+id/vertical2"
+        app:layout_constraintTop_toTopOf="@+id/horizontal5" />
+
+    <Spinner
+        android:id="@+id/SPRSignInSelectAccountType"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#000000"
+        android:foregroundTint="@color/backgreen"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal5"
+        app:layout_constraintEnd_toStartOf="@+id/vertical4"
+        app:layout_constraintStart_toStartOf="@+id/verticalcenter"
+        app:layout_constraintTop_toTopOf="@+id/horizontal4" />
+
+    <TextView
+        android:id="@+id/lastviewspinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+
+        android:layout_marginTop="20dp"
+        android:text="Login Account"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal5"
+        app:layout_constraintEnd_toStartOf="@+id/verticalcenter"
+        app:layout_constraintStart_toStartOf="@+id/vertical1"
+        app:layout_constraintTop_toTopOf="@+id/horizontal4" />
+
+    <Button
+        android:id="@+id/BTNSignInSignUPInstead"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#ffffff"
+        android:text="Sign Up instead"
+        android:textAlignment="center"
+        android:textSize="14dp"
+        android:textColor="#000000"
+
+        app:layout_constraintBottom_toTopOf="@+id/horizontal6"
+        app:layout_constraintEnd_toStartOf="@+id/vertical80"
+        app:layout_constraintStart_toStartOf="@+id/vertical20"
+        app:layout_constraintTop_toTopOf="@+id/horizontal80" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
